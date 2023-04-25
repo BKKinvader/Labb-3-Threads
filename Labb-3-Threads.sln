@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labb-3-Threads", "Labb-3-Threads.csproj", "{60385E85-EEE3-4077-9F8A-01193D71CF01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60385E85-EEE3-4077-9F8A-01193D71CF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60385E85-EEE3-4077-9F8A-01193D71CF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60385E85-EEE3-4077-9F8A-01193D71CF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60385E85-EEE3-4077-9F8A-01193D71CF01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0D90C6A-D5D1-49B2-97D1-73B3E22EB1D3}
+	EndGlobalSection
+EndGlobal
