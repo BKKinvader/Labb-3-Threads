@@ -11,10 +11,10 @@ namespace Labb_3_Threads
 
         public static void StartRace()
         {
-            // Skapa Bilar med Namn index och thread
-            Thread car1Thread = new Thread(() => RaceCar("Mercedes", 0, Thread.CurrentThread));
-            Thread car2Thread = new Thread(() => RaceCar("BMW", 1, Thread.CurrentThread));
-            Thread car3Thread = new Thread(() => RaceCar("Lambo", 2, Thread.CurrentThread));
+            // Skapa Bilar med Namn index 
+            Thread car1Thread = new Thread(() => RaceCar("Mercedes", 0));
+            Thread car2Thread = new Thread(() => RaceCar("BMW", 1));
+            Thread car3Thread = new Thread(() => RaceCar("Lambo", 2));
 
 
             // Starta race
@@ -40,7 +40,7 @@ namespace Labb_3_Threads
         public static object consoleLock = new object();
 
 
-        public static void RaceCar(string carName, int carIndex, Thread thread)
+        public static void RaceCar(string carName, int carIndex)
         {
             double distance = 0; // distance in km
             string accidentMessage = "";
